@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Awda</string>
+    <string name="web_accessibility_title">Awda Website Blocker</string>
+    <string name="web_accessibility_description">Awda is blocking websites that you have configured.</string>
+    <string name="biometric_accessibility_title">Awda Secure Apps</string>
+    <string name="biometric_accessibility_description">Awda is securing apps that you have configured.</string>
+</resources>

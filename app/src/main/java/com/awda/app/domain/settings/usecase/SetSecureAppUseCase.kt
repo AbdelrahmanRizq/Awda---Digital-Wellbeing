@@ -1,0 +1,16 @@
+package com.awda.app.domain.settings.usecase
+
+import com.awda.app.data.settings.AppSettingsRepository
+import com.awda.app.data.settings.models.SecureApp
+import com.awda.app.domain.common.usecase.AsyncUseCase
+
+/**
+ * Created by Abdelrahman Rizq
+ */
+
+class SetSecureAppUseCase(private val repository: AppSettingsRepository) :
+    AsyncUseCase<SecureApp, Unit> {
+    override suspend fun execute(params: SecureApp) {
+        return repository.setSecureApp(params)
+    }
+}
